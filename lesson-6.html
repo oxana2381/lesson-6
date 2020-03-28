@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> lesson-6</title>
+    <style>
+    *{margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+.header{
+     
+   position:fixed;
+   z-index: 1;
+   border: 3px solid #b70f0a;
+ background-color: #ff8351;
+   width:100%;
+  height: 80px;}
+  
+.parent{ width:100%;
+
+border: 3px solid #355723;
+ background-color: #dfedd6;
+height: 350px;
+  position: relative;
+}
+.absolute{
+  
+  border: 3px solid #8A2BE2;
+   background-color: #FFFFFF;
+  right:20px;
+top:25px;
+ position: absolute;
+  height:295px
+  
+}
+
+
+input[type=text],input[type=Password]
+{width:150px;
+padding:5px 20px;
+margin:8px  ;
+ margin-left:50px; 
+  margin-top:10px;
+display:inline-block ;
+border:1px solid #000000;
+}
+button { background-color:  #D3D3D3;
+  width:190px;
+padding:5px 20px;
+  margin:8px  ;
+margin-left:50px; 
+  margin-top:10px;
+  border-radius:5px;
+  border:1px solid #000000;
+}
+ 
+  .flex-container {
+  display: flex;
+    flex-flow: column wrap;
+  justify-content: space-between;
+    
+      width:100%;
+  height:500px;
+   border:3px solid #0844a4;
+ background-color: #c9f1fd;
+
+}
+.box1{
+  width:40%;
+     margin-left:5%;
+   margin-right:5%;
+  height:250px;
+  margin-top:100px;
+  border: 3px solid #9c29b7;
+  background-color: #DDA0DD;}
+  .img1{
+     float:right;
+  }
+  
+
+
+.box2
+{
+  width:40%;
+     margin-left:5%;
+   margin-right:5%;
+  height:250px;
+  margin-top:100px;
+  border: 3px solid #9c29b7;
+  background-color: #DDA0DD;}
+   .img2{
+     float:left;}
+ 
+  .footer {
+  position:fix;
+  bottom:0;
+ width:100%;
+   height:60px;
+  border: 3px solid #553d0d;
+ background-color: #ffc957;
+}
+     
+</style>
+</head>
+<body>
+  <div class="header"><h3><ul><ul>A dream becomes a goal when action is taken toward its achievement.</h3></ul></div>
+  <div class="parent">
+    <div class="absolute"><strong><br>Complete the form with your information
+  <div class="container">  
+    <br><laber for="email">
+    <input type="text"placeholder="Email Address">
+      <laber for="pass"></laber><br>
+      <input type="text"placeholder="Password"></laber><br>
+    <button type="submit">Login</button></strong>
+    </div></div></div>
+  <div class="flex-container">
+
+
+ <div class="box1">
+   <img class="img1"src="im-1.jpg" width="70" height="70">
+<h3>   Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.
+</div>
+
+  <div class="box2" >
+     <img class="img2"src="im-2.jpg" width="70" height="70">
+    <h3>Love is the condition in which the happiness of another person is essential to your own.
+
+</div>
+   </div></div>
+    
+      <div class="footer"><ul><h4>"The only way to do great work is to love what you do. If you haven’t found it yet, keep looking. Don’t settle." — Steve Jobs</h4></ul></div>
+</body>
+</html>
